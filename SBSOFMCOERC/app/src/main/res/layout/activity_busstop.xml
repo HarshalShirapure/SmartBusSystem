@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Busstop">
+
+   <!-- <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/ToolbarBuschange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Bus stop 1: "
+        android:textSize="26dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:layout_marginTop="100dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Bus stop 2: "
+        android:textSize="26dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:layout_marginTop="200dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Bus stop 3: "
+        android:textSize="26dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:layout_marginTop="300dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Bus stop 4: "
+        android:textSize="26dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:layout_marginTop="400dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Bus stop 5: "
+        android:textSize="26dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:layout_marginTop="500dp"/>
+
+</RelativeLayout>

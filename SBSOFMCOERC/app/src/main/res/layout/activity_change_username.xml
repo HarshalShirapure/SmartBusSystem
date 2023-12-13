@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChangeUsername">
+<!--
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/Toolbarusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</com.google.android.material.appbar.AppBarLayout>
+-->
+
+
+<EditText
+    android:id="@+id/oldname"
+    android:layout_width="450dp"
+    android:layout_height="wrap_content"
+    android:hint="Enter the old Username"
+    android:inputType="textEmailAddress"
+    android:textSize="26dp"
+    android:textColor="@color/black"
+    android:layout_marginTop="200dp"
+    />
+
+    <EditText
+        android:id="@+id/newname"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter the new name"
+        android:inputType="textEmailAddress"
+        android:textSize="26dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="300dp"
+        />
+
+    <Button
+        android:id="@+id/change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="chnage"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

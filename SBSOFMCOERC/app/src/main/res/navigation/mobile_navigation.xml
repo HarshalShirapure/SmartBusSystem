@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.smartbussystem.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profilesetting2"
+        android:name="com.example.smartbussystem.ui.profilesetting.profilesettingFragment"
+        android:label="User Profile"
+        tools:layout="@layout/fragment_profilesetting" />
+    <fragment
+        android:id="@+id/nav_Scanner1"
+        android:name="com.example.smartbussystem.ui.qr_code_scanner.scannerFragment"
+        android:label="QR Code"
+        tools:layout="@layout/fragment_scanner" />
+    <fragment
+        android:id="@+id/nav_Busdetail"
+        android:name="com.example.smartbussystem.ui.Busdetails.BusdetailFragment"
+        android:label="@string/menu_Busdetail"
+        tools:layout="@layout/fragment_busdetail" />
+    <fragment
+        android:id="@+id/nav_feestatus"
+        android:name="com.example.smartbussystem.ui.feestatus.FeestatusFragment"
+        android:label="@string/menu_feestatus"
+        tools:layout="@layout/fragment_feestatus" />
+    <fragment
+        android:id="@+id/nav_buslocation"
+        android:name="com.example.smartbussystem.ui.livelocation.BuslivelocationFragment"
+        android:label="@string/menu_buslocation"
+        tools:layout="@layout/fragment_buslivelocation" />
+</navigation>

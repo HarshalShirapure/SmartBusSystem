@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_profilesetting2"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title=" User Profile" />
+        <item
+            android:id="@+id/nav_Scanner1"
+            android:icon="@drawable/ic_baseline_qr_code_2_24"
+            android:title="QR code" />
+        <item
+            android:id="@+id/nav_Busdetail"
+            android:icon="@drawable/ic_baseline_directions_bus_24"
+            android:title="Busdetails" />
+        <item
+            android:id="@+id/nav_feestatus"
+            android:icon="@drawable/ic_baseline_attach_money_24"
+            android:title="Fee status" />
+        <item
+            android:id="@+id/nav_buslocation"
+            android:icon="@drawable/ic_baseline_location_on_24"
+            android:title="Track Bus" />
+
+
+    </group>
+</menu>

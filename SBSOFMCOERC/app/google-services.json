@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "700743405289",
+    "firebase_url": "https://smartbussystem-c88fa-default-rtdb.firebaseio.com",
+    "project_id": "smartbussystem-c88fa",
+    "storage_bucket": "smartbussystem-c88fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700743405289:android:694cead510213c47042a78",
+        "android_client_info": {
+          "package_name": "com.example.smartbussystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700743405289-3sk7t53jqkvnevo724klepp36uqn6cip.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartbussystem",
+            "certificate_hash": "fed00cc012bde7fdcf07ff27df72bec7cc58794b"
+          }
+        },
+        {
+          "client_id": "700743405289-erbihnripprv96qkocobmpc0slfkn6gb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpUcc34gjLZK8F6TBpxu_gCJhDr7TP-w4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700743405289-erbihnripprv96qkocobmpc0slfkn6gb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

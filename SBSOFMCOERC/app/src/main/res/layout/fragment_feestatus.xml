@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.feestatus.FeestatusFragment">
+
+    <TextView
+        android:id="@+id/Pendingfees"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Total Bus fees pending:"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="250dp"
+        android:textSize="16dp"
+        />
+    <TextView
+        android:id="@+id/tf"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Total Bus fees:"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="280dp"
+        android:textSize="16dp"
+        android:visibility="gone"
+        />
+    <Button
+        android:id="@+id/goback"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="click here to pay bus remaining fee"
+        android:layout_marginTop="350dp"
+        android:textSize="16dp"
+        android:gravity="center"
+        />
+    <!-- <ListView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="280dp"
+         android:id="@+id/l1"
+         />-->
+
+</RelativeLayout>

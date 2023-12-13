@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.HomeFragmentAdmin"
+    android:layout_centerVertical="true">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:text="Admin Dashboard"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"/>
+    <View
+        android:layout_width="500dp"
+        android:layout_height="2dp"
+        android:background="#E91E63"
+        android:layout_marginTop="80dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/totalbuses"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/purple_200">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="All Buses"
+                android:textSize="30dp"
+                >
+            </TextView>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Drivers"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+       android:layout_centerVertical="true"
+        android:layout_below="@+id/totalbuses"
+        android:layout_margin="10dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FF9E80">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All Drivers"
+                android:textSize="30dp"
+                android:layout_centerInParent="true"
+                >
+            </TextView>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Students"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        app:cardCornerRadius="8dp"
+        android:elevation="25dp"
+        android:layout_marginTop="450dp"
+        android:visibility="gone">
+       <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFE57F"
+           >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Students"
+                android:textSize="30dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                >
+            </TextView>
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

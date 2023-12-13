@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_baseline_directions_bus_24"
+    tools:context=".Choseaccount">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select an account type?"
+        android:textSize="20sp"
+        android:layout_marginTop="180sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        />
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="80sp">
+    <RadioButton
+        android:id="@+id/studentlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Login"
+        android:textSize="26sp"
+        android:layout_marginTop="180sp"
+        android:layout_marginLeft="20dp"
+        />
+    <RadioButton
+        android:id="@+id/driverlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Driver Login"
+        android:textSize="26sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="20dp"
+        />
+    <RadioButton
+        android:id="@+id/Adminlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Login"
+        android:textSize="26sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="20dp"
+        />
+</RadioGroup>
+</RelativeLayout>
